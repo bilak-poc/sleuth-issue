@@ -1,0 +1,8 @@
+spring:
+  sleuth:
+    baggage:
+      remote-fields:
+        - x-custom-account-id
+    opentracing:
+      enabled: true
+
